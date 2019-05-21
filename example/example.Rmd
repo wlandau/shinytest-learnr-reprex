@@ -1,16 +1,11 @@
 ---
-title: "Practice a drake workflow."
+title: "Example"
 output: learnr::tutorial
 runtime: shiny_prerendered
 ---
 
-```{r setup, include=FALSE}
+```{r q, echo = FALSE}
 library(learnr)
-```
-
-## Test question
-
-```{r q}
 question(
   "Okay?",
   correct = "Yup.",
