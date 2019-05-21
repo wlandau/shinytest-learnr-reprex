@@ -1,5 +1,3 @@
-# shinytest-learnr-reprex
-
 The tutorial at `example/example.Rmd` runs fine on its own in the RStudio IDE and with `rmarkdown::run()`, but I am having trouble getting `shinytest::recordTest("example")` to work.
 
 # On Linux
