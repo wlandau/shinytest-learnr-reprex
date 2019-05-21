@@ -1,0 +1,22 @@
+---
+title: "Practice a drake workflow."
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+```
+
+## Test question
+
+```{r q}
+question(
+  "Okay?",
+  correct = "Yup.",
+  incorrect = "Nope.",
+  allow_retry = TRUE,
+  answer("Yes", correct = TRUE),
+  answer("No")
+)
+```
